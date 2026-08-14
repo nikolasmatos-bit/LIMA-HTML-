@@ -50,31 +50,53 @@
 
         </fieldset>
 
-<fieldset>
+        <fieldset>
 
-    <legend>Detalhes Adicionias</legend>
-    
-    
-    <label for="bio">Sobre Você:</label>
-<textarea name="bio" id="bio" rows="3" placeholder="Fale um pouco de Você...">
+            <legend>Detalhes Adicionias</legend>
+
+
+            <label for="bio">Sobre Você:</label>
+            <textarea name="bio" id="bio" rows="3" placeholder="Fale um pouco de Você...">
 </textarea>
 
-<label for="Linguagem">Linguagem Favorita:
-</label>
+            <label for="Linguagem">Linguagem Favorita:
+            </label>
 
-<input type="text" name="Linguagem" id="Linguagem" list="Linguagens">
-<datalist id="Linguagens">
-    <option value="HTML">
-        <option value="CSS">
-             <option value="JavaScript">
-              <option value="Phython">
-               <option value="Java">
+            <input type="text" name="Linguagem" id="Linguagem" list="Linguagens">
+            <datalist id="Linguagens">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="Phython">
+                <option value="Java">
 
 
 
-</datalist>
- 
-</fieldset>
+            </datalist><br>
+
+            <label for="contato">Contato</label>
+            <address>
+                Email: nikolas.matos@edu.senai.br <br>
+                Telefone: (11)92345-5432
+            </address><br>
+
+        </fieldset>
+
+        <FIeldset>
+            <details>
+
+                <legend>Outras Informações</legend>
+                <summary>O que é um formulário HTML?</summary>
+                <p>Um formulário HMLT é utilizado para coletar Informações dos usuários e enviá-las para um servidor.
+                </p>
+            </details>
+
+
+            <p>O campo <mark>senha </mark>precisa pelo menos 6 caracteres</p>
+            <label for="Hora do Cadastro">Hórario preferido para contato:</label>
+            <input type="time" ide="Hora-cadastro" name="Hora-cadastro">
+        </FIeldset>
+        <button type="submit">Cadastrar</button>
 
 
 
