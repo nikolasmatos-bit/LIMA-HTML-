@@ -2,6 +2,43 @@
     width: 200px;
     height: 100px;
     background-color: green;
+    border-radius: 20px;
     border: 6px solid red;
-    
+    margin: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.box2 {
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    border: 6px solid yellow;
+    margin: 20px;
+    padding: 10px 40px 10px 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.box3 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 6px solid green;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+body {
+    background-color: rgb(187, 218, 236);
 }
